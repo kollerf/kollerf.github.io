@@ -26,7 +26,7 @@ a:hover {
 
 body {
 	font-size: 11.5pt;
-	color: #5C5B5B;
+	color: #0226a8;
 	line-height: 1.75em;
 	background: #E0DCDC url(images/img01.gif) repeat-x top left;
 }
@@ -130,11 +130,11 @@ ul h4 {
 #header {
 	height: 100px;
 	position: relative;
-	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
-	padding: 45px;
+	background: #7d7878 url(images/img03.jpg) top left no-repeat;
+	padding: 20px;
 	color: #FFFFFF;
 	width: 888px;
-	border: solid 1px #7E7E7E;
+	border: solid 1px #2C2B2B;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	overflow: hidden;
