@@ -128,10 +128,10 @@ ul h4 {
 }
 
 #header {
-	height: 100px;
+	height: 70px;
 	position: relative;
-	background: #7d7878 url(images/img03.jpg) top left no-repeat;
-	padding: 20px;
+	background: #1B336A url(images/img03.jpg) top left no-repeat;
+	padding: 45px;
 	color: #FFFFFF;
 	width: 888px;
 	border: solid 1px #2C2B2B;
@@ -164,7 +164,7 @@ ul h4 {
 	height: 160px;
 	padding: 5px 0 0 0;
 	position: absolute;
-	right: 45px;
+	right: 30px;
 	top: 0;
 }
 
@@ -177,12 +177,12 @@ ul h4 {
 #menu {
 	padding: 0 45px 0 45px;
 	position: relative;
-	background: #209D9D url(images/img02.gif) repeat-x top left;
+	background: #1B336A url(images/img02.gif) repeat-x top left;
 	margin: 0 0 0 0;
 	height: 60px;
 	line-height: 60px;
 	width: 890px;
-	border-top: solid 1px #5AD7D7;
+	border-top: solid 1px #000000;
 	text-shadow: 0 1px 1px #007D7D;
 }
 
@@ -244,7 +244,7 @@ ul h4 {
 #page-bottom {
 	position: relative;
 	margin: 0;
-	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
+	background: #0E6E6E url(images/img03.jpg) top left no-repeat;
 	border: solid 1px #7E7E7E;
 	width: 888px;
 	padding: 45px 45px 0 45px;
