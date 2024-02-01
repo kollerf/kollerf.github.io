@@ -198,7 +198,7 @@ ul h4 {
 }
 
 #menu ul li {
-	padding: 0 20px 0 20px;
+	padding: 20 20px 20 20px;
 	display: inline;
 }
 
@@ -208,7 +208,7 @@ ul h4 {
 #menu ul li:hover{
      background-position: 100px 0px;
    
-	background-color:white;
+	background-color:navy;
 }
 #page {
 	padding: 45px 45px 15px 45px;
