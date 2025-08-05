@@ -1,0 +1,119 @@
+  <style>
+    .fade-target {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .fade-in {
+      opacity: 1;
+    }
+  </style>
+  <style>
+    body {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    body.fade-in {
+      opacity: 1;
+    }
+  </style>
+</body>
+<script>
+  // Fade in on load only
+  window.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('fade-in');
+  });
+</script>
+</html>
+  <style>
+    body {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    body.fade-in {
+      opacity: 1;
+    }
+  </style>
+</head>
+<script>
+  // Fade in on load only
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('fade-in');
+  });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Homepage of Florian Koller">
+  <title>Home - Florian Koller</title>
+  <link rel="stylesheet" href="modern-style.css">
+  <link rel="stylesheet" href="modern-style-additions.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="modern-header">
+    <div class="modern-logo">
+      <h1>Welcome to my Homepage</h1>
+      <img src="images/koller_florian_profile.png" alt="Florian Koller">
+    </div>
+    <nav class="modern-nav">
+      <a href="index_modern.html" class="active">Home</a>
+      <a href="info_modern.html">About me</a>
+      <a href="publications_modern.html">Research & Publications</a>
+      <a href="projects_modern.html">Side Projects & Other topics</a>
+      <a href="contact_modern.html">Contact</a>
+    </nav>
+  </header>
+  <main class="modern-main fade-target">
+</body>
+<script>
+  // Fade in only the main content area
+  window.addEventListener('DOMContentLoaded', function() {
+    var main = document.querySelector('.modern-main');
+    if (main) main.classList.add('fade-in');
+  });
+</script>
+</html>
+    <section>
+      <h2>Welcome to my website!</h2>
+      <p>My name is Florian Koller and I'm a postdoctoral research assistant currently working at Queen Mary University of London. You can find my CV, an overview of my research, and a list of my publications and talks on this website. Have a look at my space-related photography and art projects as well!</p>
+      <div class="modern-news">
+        <div class="modern-news-item">
+          <img src="images/IMG_1088.JPG" alt="Welcome by Florian Koller" title="Welcome by Florian Koller">
+          <p>I received an MSCA Postdoctoral Fellowship, which I will work on starting October 2025 at Queen Mary University of London. <a href="https://www.qmul.ac.uk/spcs/news-and-events/news/items/dr-florian-koller-awarded-marie-skodowska-curie-fellowship-to-work-in-the-qmul-astronomy-unit.html">Here is the news article</a> about my successful application.</p>
+          <a href="https://www.qmul.ac.uk/spcs/news-and-events/news/items/dr-florian-koller-awarded-marie-skodowska-curie-fellowship-to-work-in-the-qmul-astronomy-unit.html"><img src="images/koller_qmul_picture.jpg" alt="QMUL News"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>I was invited as a speaker at the <a href="https://blogs.egu.eu/divisions/st/2025/03/09/st-ecs-networking-campfire-how-to-successfully-apply-for-fellowships/">campfire event</a> of the EGU Solar-terrestrial early career scientist division. Had a fun time networking with my international colleagues and talking about fellowship proposal writing!</p>
+          <a href="https://blogs.egu.eu/divisions/st/2025/03/09/st-ecs-networking-campfire-how-to-successfully-apply-for-fellowships/"><img src="images/ecs_campfire_koller.jpg" alt="EGU Campfire"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>I observed aurora in Graz, Austria during the huge geomagnetic storm on 11 May 2024. <a href="https://www.uni-graz.at/de/neuigkeiten/polarlichter-in-graz-physiker-erklaeren-seltenes-himmelsphaenomen/">The University of Graz featured my pictures and interviewed me on the topic.</a></p>
+          <a href="https://www.uni-graz.at/de/neuigkeiten/polarlichter-in-graz-physiker-erklaeren-seltenes-himmelsphaenomen/"><img src="images/uni-graz-polarlichter-koller.jpg" alt="Aurora Graz"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>A news report on my <a href="https://physik.uni-graz.at/en/news/alles-fliesst-2/">APJL article</a> about the influence of solar wind types on the terrestrial magnetosheath.</p>
+          <a href="https://physik.uni-graz.at/en/news/alles-fliesst-2/"><img src="images/news_march24.png" alt="APJL Article"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>Have a look at my <a href="https://blogs.egu.eu/divisions/st/2023/06/13/exploring-magnetosheath-jets-and-their-dependence-on-solar-wind-structures/">EGU -ST Blog post</a> about my 2023 Paper "Magnetosheath Jet Formation influenced by Parameters in Solar Wind Structures."</p>
+          <a href="https://blogs.egu.eu/divisions/st/2023/06/13/exploring-magnetosheath-jets-and-their-dependence-on-solar-wind-structures/"><img src="images/overview_illustration.png" alt="EGU Blog"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>In 2023 we organized an <a href="https://astrophysics.uni-graz.at/en/news/internationaler-workshop-2-1/">international workshop on magnetosheath jets</a> in Graz.</p>
+          <a href="https://astrophysics.uni-graz.at/en/news/internationaler-workshop-2-1/"><img src="images/news_koller2.jpg" alt="Workshop"></a>
+        </div>
+        <div class="modern-news-item">
+          <p>My <a href="https://physik.uni-graz.at/en/news/ausgezeichnet-1/">2nd place for the student poster competition</a> at the European Solar Physics Meeting (ESPM) 2021.</p>
+          <a href="https://physik.uni-graz.at/en/news/ausgezeichnet-1/"><img src="images/news_koller.jpg" alt="Poster Prize"></a>
+        </div>
+      </div>
+      <p style="margin-top:2.5rem;color:#888;">This webpage was recently launched and is still actively developing.</p>
+    </section>
+  </main>
+  <footer class="modern-footer">
+    <small>&copy; 2025 Koller | Design inspired by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</small>
+  </footer>
+</body>
+</html>

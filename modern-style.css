@@ -1,0 +1,125 @@
+/* modern-style.css - A fresh, modern look for Florian Koller's website */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+}
+
+.modern-header {
+  background: linear-gradient(90deg, #2d3e50 60%, #4e73df 100%);
+  color: #fff;
+  padding: 1.5rem 0 1rem 0;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+
+.modern-logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.modern-logo img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.12);
+}
+
+.modern-logo h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.modern-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.modern-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.modern-nav a.active, .modern-nav a:hover {
+  background: #fff;
+  color: #2d3e50;
+}
+
+.modern-main {
+  max-width: 900px;
+  margin: 2.5rem auto 0 auto;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(44,62,80,0.10);
+}
+
+.modern-contact-box h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #4e73df;
+}
+
+.modern-contact-box p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.modern-contact-box a {
+  color: #4e73df;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+.modern-contact-box a:hover {
+  text-decoration: underline;
+}
+
+.modern-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.05rem;
+}
+
+.modern-socials span {
+  color: #888;
+  margin-right: 0.5rem;
+}
+
+.modern-footer {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  color: #888;
+  font-size: 0.95rem;
+  background: none;
+}
+
+@media (max-width: 900px) {
+  .modern-main {
+    max-width: 98vw;
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+  .modern-logo h1 {
+    font-size: 1.3rem;
+  }
+  .modern-header {
+    padding: 1rem 0 0.5rem 0;
+  }
+}

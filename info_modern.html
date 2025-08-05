@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Florian Koller">
+  <title>About Me - Florian Koller</title>
+  <link rel="stylesheet" href="modern-style.css">
+  <link rel="stylesheet" href="modern-style-additions.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .fade-target {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .fade-in {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <header class="modern-header">
+    <div class="modern-logo">
+      <img src="images/koller_florian_profile.png" alt="Florian Koller" width="80">
+      <h1>About Me</h1>
+    </div>
+    <nav class="modern-nav">
+      <a href="index_modern.html">Home</a>
+      <a href="info_modern.html" class="active">About me</a>
+      <a href="publications_modern.html">Research & Publications</a>
+      <a href="projects_modern.html">Side Projects & Other topics</a>
+      <a href="contact_modern.html">Contact</a>
+    </nav>
+  </header>
+  <main class="modern-main fade-target">
+    <section>
+      <h2>Personal Information</h2>
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:2rem;">
+        <div style="flex:1 1 300px;min-width:220px;">
+          <p style="text-align:justify;">Hi! I'm Florian, an Austrian postdoctoral research assistant at Queen Mary University of London, UK. My fascination with astronomy and space began in childhood—see the photo of me watching the Venus transit in 2004 with my first telescope!</p>
+          <p style="text-align:justify;">I studied physics in Graz, Austria, earning my Bachelor's and Master's degrees with a focus on astrophysics. My early research explored stellar activity and the detection of flares and CMEs on late-type stars. For my PhD at the University of Graz, I investigated how solar wind structures—such as coronal mass ejections (CMEs) and high-speed streams—affect the Earth's magnetosheath, the turbulent region just outside our planet's magnetic field. This work bridged solar and magnetospheric physics, combining data analysis and interdisciplinary approaches.</p>
+          <p style="text-align:justify;">Currently, my research at QMUL focuses on plasma instabilities and turbulence in near-Earth space, aiming to better understand how energy is transferred and dissipated in the magnetosheath. I am especially interested in how large-scale solar events can drive small-scale processes that impact satellites and space weather.</p>
+          <p style="text-align:justify;">Outside of research, I enjoy astrophotography and painting (gouache and acrylic). You can find more about my work and publications on <a href="https://www.qmul.ac.uk/spcs/staff/research-staff/profiles/fkoller.html">my QMUL science webpage</a> and my <a href="https://online.uni-graz.at/kfu_online/wbforschungsportal.cbshowportal?pPersonNr=119045">University of Graz science webpage</a>.</p>
+        </div>
+        <div style="flex:0 0 auto;text-align:center;max-width:180px;">
+          <img src="images/earlystart.jpeg" alt="Watching the Venus transit 2004 with my first telescope" style="width:100%;max-width:180px;border-radius:18px;box-shadow:0 2px 10px rgba(44,62,80,0.10);margin-bottom:0.5rem;">
+          <div style="font-size:0.97rem;color:#666;line-height:1.3;">Watching the Venus transit 2004<br>with my first telescope</div>
+        </div>
+      </div>
+      <h2 style="margin-top:2.5rem;">Short CV</h2>
+      <div class="modern-cv" style="margin-bottom:2rem;">
+        <ul style="list-style:none;padding:0;">
+          <li><strong>Dr. rer. nat. Florian Koller</strong></li>
+          <li><strong>2024 – now:</strong> Queen Mary University of London: Postdoctoral research assistant, supervisor: Dr. Christopher Chen</li>
+          <li><strong>2024 July-September:</strong> University of Graz: Postdoctoral researcher, project "CASPER", PI: Dr. Manuela Temmer</li>
+          <li><strong>2021 – 2024:</strong> University of Graz: PhD in Natural Sciences – Space Sciences and Earth from Space, Topic: “Magnetosheath jets throughout the solar cycle”, supervisor: Assoc. Prof. M. Temmer, Passed with distinction</li>
+          <li><strong>2020:</strong> Joanneum Research: R&D developer, Graz, Austria</li>
+          <li><strong>2016 – 2019:</strong> University of Graz: MSc in Physics, Master’s Thesis: “Stellar activity of late-type main-sequence stars in SDSS data”, supervisor: Assoc. Prof. M. Temmer and Dr. M. Leitzinger, Passed with distinction</li>
+          <li><strong>2013 - 2016:</strong> Graz University of Technology: BSc in Physics, Bachelor’s Thesis “Stellar reflection nebulae”, supervisor: Dr. T. Ratzka</li>
+          <li><strong>2007-2012:</strong> Higher technical college for electrical engineering in Klagenfurt, Diploma thesis “Charging station - Effects on power grid and power plants”, Reifeprüfung (equivalent to A-levels)</li>
+          <li><strong>1999-2007:</strong> Primary and secondary school in Carinthia</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="modern-footer">
+    <small>&copy; 2025 Koller | Design inspired by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</small>
+  </footer>
+</body>
+</body>
+<script>
+  // Fade in only the main content area
+  window.addEventListener('DOMContentLoaded', function() {
+    var main = document.querySelector('.modern-main');
+    if (main) main.classList.add('fade-in');
+  });
+</script>
+</html>
+</html>
